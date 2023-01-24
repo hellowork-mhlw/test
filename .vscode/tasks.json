@@ -7,7 +7,8 @@
             "command": "php -S 0.0.0.0:8000",
             "runOptions": {
                 "runOn": "folderOpen",
-                "instanceLimit": 1
+                "instanceLimit": 1,
+                "reevaluateOnRerun": false
             }
         }
     ]
