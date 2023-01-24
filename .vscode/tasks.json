@@ -2,13 +2,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Start 8001",
+            "label": "Start App",
             "type": "shell",
-            "command": "pgrep -f php || php -S 0.0.0.0:8001",
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },
+            "command": "php -S 0.0.0.0:8000",
             "runOptions": {
                 "runOn": "folderOpen",
             }
