@@ -4,28 +4,10 @@
         {
             "label": "Start 8001",
             "type": "shell",
-            "command": "touch $(date --iso-8601=s) && sleep 4 && php -S 0.0.0.0:8001",
+            "command": "pgrep -f php || php -S 0.0.0.0:8001",
             "presentation": {
                 "reveal": "always",
-                "panel": "new",
-                "close": false,
-                "showReuseMessage": false
-            },
-            "runOptions": {
-                "runOn": "folderOpen",
-            },
-            "isBackground": true,
-            "problemMatcher": []
-        },
-        {
-            "label": "Start 8002",
-            "type": "shell",
-            "command": "touch $(date --iso-8601=s)xyz",
-            "presentation": {
-                "reveal": "always",
-                "panel": "new",
-                "close": false,
-                "showReuseMessage": false
+                "panel": "new"
             },
             "runOptions": {
                 "runOn": "folderOpen",
