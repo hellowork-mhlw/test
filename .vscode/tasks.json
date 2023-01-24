@@ -24,19 +24,8 @@
             },
             "runOptions": {
                 "runOn": "folderOpen",
-            }
-        },
-        {
-            "type": "shell",
-            "command": "npm run test",
-            "group": "none",
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
             },
-            "runOptions": {
-                "runOn": "folderOpen",
-            }
+            "isBackground": true
         }
     ]
 }
