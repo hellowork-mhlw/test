@@ -8,7 +8,8 @@
             "presentation": {
                 "reveal": "always",
                 "panel": "new",
-                "close": false
+                "close": false,
+                "showReuseMessage": false
             },
             "runOptions": {
                 "runOn": "folderOpen",
@@ -23,7 +24,8 @@
             "presentation": {
                 "reveal": "always",
                 "panel": "new",
-                "close": false
+                "close": false,
+                "showReuseMessage": false
             },
             "runOptions": {
                 "runOn": "folderOpen",
