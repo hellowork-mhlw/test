@@ -5,6 +5,11 @@
             "label": "Start App",
             "type": "shell",
             "command": "sleep 1 && php -S 0.0.0.0:8000",
+            "presentation": {
+                "panel": "dedicated",
+                "clear": true
+            },
+            "isBackground": true,
             "runOptions": {
                 "runOn": "folderOpen"
             }
