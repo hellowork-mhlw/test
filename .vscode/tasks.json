@@ -3,7 +3,7 @@
     "tasks": [
         {
             "label": "Start 8001",
-            "type": "shell",
+            "type": "process",
             "command": "php -S 0.0.0.0:8001",
             "presentation": {
                 "reveal": "always",
