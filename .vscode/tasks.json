@@ -3,9 +3,8 @@
     "tasks": [
         {
             "label": "Start 8001",
-            "type": "process",
-            "command": "php",
-            "args": ["-S", "0.0.0.0:8001"],
+            "type": "shell",
+            "command": "sleep 10 && php -S 0.0.0.0:8001",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
