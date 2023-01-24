@@ -25,7 +25,8 @@
             "runOptions": {
                 "runOn": "folderOpen",
             },
-            "isBackground": true
+            "isBackground": true,
+            "problemMatcher": []
         }
     ]
 }
